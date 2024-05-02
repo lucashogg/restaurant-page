@@ -1,1 +1,1 @@
-console.log('TEST');
+import './styles/index.css';

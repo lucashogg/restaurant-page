@@ -1,0 +1,86 @@
+/* Reset */
+@import './reset.css';
+
+/* General */
+body {
+    background-image: url('../assets/bg-img.jpg');
+    background-position: top;
+}
+
+body,
+button {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0 .75rem;
+}
+
+nav button {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem .75rem;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Main Content */
+.main-content {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    line-height: 1.25rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #fff;
+}
+
+footer p {
+    padding: 1rem;
+    text-align: center;
+}
