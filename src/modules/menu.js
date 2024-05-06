@@ -11,7 +11,7 @@ const menu = () => {
     wineContent.classList.add('wine-content');
     wineContent.innerHTML = `
         <h2>Rosé</h2>
-        <div class="prices">
+        <div class="space-between">
             <ul>
                 <li>House</li>
                 <li>Fancy</li>
@@ -22,7 +22,7 @@ const menu = () => {
             </ul>
         </div>
         <h2>White</h2>
-        <div class="prices">
+        <div class="space-between">
             <ul>
                 <li>House</li>
                 <li>Fancy</li>
@@ -33,7 +33,7 @@ const menu = () => {
             </ul>
         </div>
         <h2>Red</h2>
-        <div class="prices">
+        <div class="space-between">
             <ul>
                 <li>House</li>
                 <li>Fancy</li>
