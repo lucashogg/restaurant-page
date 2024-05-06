@@ -1,5 +1,8 @@
 /* Reset */
 @import './reset.css';
+/* CSS Modules */
+@import './menu.css';
+@import './contact.css';
 
 /* General */
 body {
@@ -55,11 +58,16 @@ nav button:hover {
 }
 
 /* Main Content */
+#content {
+    display: flex;
+    justify-content: center;
+}
+
 .main-content {
-    background-color: #fff;
+    width: 100%;
     max-width: 500px;
-    margin: 0 auto;
-    margin-top: 2rem;
+    background-color: #fff;
+    margin: 2rem 1rem 1rem 1rem;
     padding: 1.5rem;
 }
 
@@ -70,8 +78,14 @@ nav button:hover {
     margin-bottom: 1rem;
 }
 
-.main-content p {
+.main-content p,
+.main-content li {
     line-height: 1.25rem;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer */
@@ -83,4 +97,11 @@ footer {
 footer p {
     padding: 1rem;
     text-align: center;
+}
+
+/* Media Qs */
+@media screen and (min-width: 1440px) {
+    body {
+        background-size: cover;
+    }
 }
