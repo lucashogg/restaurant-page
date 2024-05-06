@@ -1,6 +1,6 @@
 # restaurant-page
 
-View live site on [GitHub Pages](https://lucashogg.github.io/tic-tac-toe/)
+View live site on [GitHub Pages](https://lucashogg.github.io/restaurant-page/)
 
 ## About
 
