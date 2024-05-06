@@ -10,15 +10,14 @@ const home = () => {
     const lineBreak = document.createElement('p');
     lineBreak.innerHTML = '&nbsp';
 
-    const p1 = document.createElement('p');
-    p1.innerText = 'Welcome to Lucas, your neighborhood wine shop. Inspired by the cozy ambiance of French and Spanish wine bars, we offer a curated selection of wines from both regions.';
-    const p2 = document.createElement('p');
-    p2.innerText = 'Forget the same old routine - explore a world-class collection right here in your neighborhood. We\'ve chosen these authentic wines to elevate your everyday and take your taste buds on a European adventure.';
+    const homepageInfo = document.createElement('p');
+    homepageInfo.innerHTML = `<p>Welcome to Lucas, your neighborhood wine shop. Inspired by the cozy ambiance of French and Spanish wine bars, we offer a curated selection of wines from both regions.</p>
+    <p>&nbsp</p>
+    <p>Forget the same old routine - explore a world-class collection right here in your neighborhood. We've chosen these authentic wines to elevate your everyday and take your taste buds on a European adventure.</p>
+    `;
 
     mainContent.appendChild(heading);
-    mainContent.appendChild(p1);
-    mainContent.appendChild(lineBreak);
-    mainContent.appendChild(p2);
+    mainContent.appendChild(homepageInfo);
     content.appendChild(mainContent);
 }
 
